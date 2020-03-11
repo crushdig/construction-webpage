@@ -1,0 +1,11 @@
+.footer {
+  background-color: #e5e5e5;
+  padding: 3rem 1.5rem 6rem;
+  /*bottom: auto;*/
+  /*position: absolute;*/
+  /*width: 100%;*/
+}
+
+.has-text-centered {
+  text-align: center;
+}

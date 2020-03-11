@@ -1,0 +1,98 @@
+:host {
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+mat-card {
+  width:500px;
+  background: rgba(255,255,255,0.9);
+  border: 1px solid red;
+
+}
+
+mat-card-header {
+  color: #3f51b5;
+}
+
+mat-card-content {
+  padding: 8px;
+}
+
+div {
+  /*border: 1px solid red;*/
+
+}
+
+.home-Bg {
+  background-position: center center;
+  background-image: url("src/assets/downtown-city-skyline.jpg") !important;
+  background-size: cover;
+  /*-webkit-box-align: stretch;*/
+  /*align-items: stretch;*/
+  /*justify-content: space-between;*/
+  /*display: flex;*/
+  /*flex-direction: column;*/
+}
+
+.home-Bg.is-Primary {
+  background-color: #00d1b2;
+  color: #fff;
+}
+
+.home-Bg.is-Fullheight {
+  min-height: 100vh;
+}
+
+.home-Body {
+  -webkit-box-flex: 1;
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding: 3rem 1.5rem;
+  border: 1px solid red;
+  /*margin-top: 64px;*/
+}
+
+.home-Container {
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+  display: flex;
+  border: 1px solid red;
+}
+
+.home-Container.has-text-centered{
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.mat-content {
+  margin: 0 auto;
+  position: relative;
+  padding-bottom: 20rem;
+  /*right: 0;*/
+  display: block;
+  /*border: 1px solid red;*/
+
+}
+
+.content {
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: block;
+}
+
+.main-div{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+
+}
+
+

@@ -1,0 +1,65 @@
+mat-toolbar {
+  position: absolute;
+  z-index: 0;
+  overflow-x: auto;
+  /*background-color: #c3cfd2;*/
+}
+
+mat-toolbar-row {
+  justify-content:space-between;
+
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+
+a.active {
+  background-color: rgba(0,0,0, 0.3);
+}
+
+h1 {
+  margin: 0;
+  color: black;
+}
+
+h1 .light {
+  font-weight: 100;
+
+}
+
+.scroll-wrapper {
+  overflow: auto;
+  max-height: 500px;
+}
+
+.sticky-toolbar {
+  position: sticky;
+  top: 0;
+}
+
+.opaque {
+  background-color: transparent;
+  color: black;
+}
+
+/*.x-bar.x-bar-absolute{*/
+/*  background-color: hsla(276, 6%, 63%, 0.15) !important;*/
+/*  transition: none !important;*/
+/*}*/
+
+/*.x-bar.x-bar-fixed{*/
+/*  background-color: hsla(276, 6%, 63%, 1) !important;*/
+/*}*/
+
+/*.x-bar [class^="x-bg"] {*/
+/*  background-color: transparent !important;*/
+/*}*/
+
+/*.x-bar.x-bar-absolute .hm5.x-menu > li > .x-anchor .x-anchor-text-primary {*/
+/*  color: #fff;*/
+/*}*/
+
+/*.x-bar.x-bar-fixed .hm5.x-menu > li > .x-anchor .x-anchor-text-primary {*/
+/*  color: #000;*/
+/*}*/
