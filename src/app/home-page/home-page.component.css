@@ -24,6 +24,11 @@ div {
 
 }
 
+.home-Body.scroll-wrapper {
+  overflow: auto;
+  max-height: 100vh;
+}
+
 .home-Bg {
   background-position: center center;
   background-image: url("src/assets/downtown-city-skyline.jpg") !important;
