@@ -8,7 +8,6 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatSliderModule } from '@angular/material/slider';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { AnimationTestComponent } from './animation-test/animation-test.component';
 import {ContentService} from './shared/services/content.service';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { FullpageDirective } from './shared/directives/fullpage.directive';
@@ -20,8 +19,6 @@ import {ScrollDispatcher, ScrollingModule} from '@angular/cdk/scrolling';
 @NgModule({
   declarations: [
     AppComponent,
-    AnimationTestComponent,
-    AnimationTestComponent,
     routingComponents,
     FullpageDirective,
     FullpageDirective,
