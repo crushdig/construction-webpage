@@ -2,7 +2,7 @@ mat-toolbar {
   position: absolute;
   z-index: 0;
   overflow-x: auto;
-  /*background-color: #c3cfd2;*/
+  background-color: #c3cfd2;
 }
 
 mat-toolbar-row {
