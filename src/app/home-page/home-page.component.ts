@@ -18,7 +18,7 @@ export class HomePageComponent implements OnInit {
   //   image: 'assets/downtown-city-skyline.jpg'
   // }
 
-  private page: { image: string; subtitle: string; title: string; content: string };
+  public page: { image: string; subtitle: string; title: string; content: string };
 
   constructor(private contentService: ContentService, private route: ActivatedRoute) { }
 

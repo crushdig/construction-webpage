@@ -7,7 +7,6 @@ mat-toolbar {
 
 mat-toolbar-row {
   justify-content:space-between;
-
 }
 
 .spacer {
@@ -25,7 +24,6 @@ h1 {
 
 h1 .light {
   font-weight: 100;
-
 }
 
 .sticky-toolbar {
@@ -58,3 +56,5 @@ h1 .light {
 /*.x-bar.x-bar-fixed .hm5.x-menu > li > .x-anchor .x-anchor-text-primary {*/
 /*  color: #000;*/
 /*}*/
+
+

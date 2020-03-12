@@ -39,7 +39,7 @@ import {ScrollDispatcher, ScrollingModule} from '@angular/cdk/scrolling';
     FlexLayoutModule,
     ScrollingModule,
   ],
-  entryComponents: [HeaderComponent],
+  // entryComponents: [HeaderComponent],
   providers: [ContentService, ScrollDispatcher],
   bootstrap: [AppComponent, HeaderComponent]
 })
