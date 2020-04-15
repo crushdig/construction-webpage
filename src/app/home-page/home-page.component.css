@@ -1,16 +1,15 @@
 :host {
   align-items: center;
-  justify-content: center;
   box-sizing: border-box;
-  font-size: 16px;
   color: #777;
-
+  font-size: 16px;
+  justify-content: center;
 }
 
 mat-card {
-  width: 500px;
   background: rgba(255,255,255,0.9);
   border: 1px solid red;
+  width: 500px;
 }
 
 mat-card-header {
@@ -34,14 +33,14 @@ p {
 }
 
 h2 {
-  font-family: "Montserrat", Helvetica, Arial, sans-serif;
-  word-wrap: break-word;
-  word-break: break-word;
   color: black;
   font-size: 26px;
   font-weight: 400;
+  font-family: "Montserrat", Helvetica, Arial, sans-serif;
   line-height: 1.2;
   letter-spacing: -.2px;
+  word-wrap: break-word;
+  word-break: break-word;
 
 }
 
@@ -70,65 +69,62 @@ h2 {
 }
 
 .home-Bg.is-Fullheight {
-  min-height: 5vh;
+  min-height: 100vh;
 }
 
-.home-Bg.is-Midheight {
-  min-height: 500vh;
+.home-Bg.is-Varheight {
+  min-height: 75vh;
 }
 
 .home-Body {
   -webkit-box-flex: 1;
+  border: 1px solid red;
   flex-grow: 1;
   flex-shrink: 0;
   padding: 3rem 1.5rem;
-  border: 1px solid red;
-
   /*margin-top: 64px;*/
 }
 
 .home-Container {
+  border: 1px solid red;
   flex-grow: 1;
   margin: 0 auto;
+  min-height: 75vh;
   position: relative;
   width: auto;
   /*display: flex;*/
-  border: 1px solid red;
-  min-height: 100vh;
-
 }
 
 .home-Container.has-text-centered {
-  justify-content: center;
   align-items: center;
-  overflow: auto;
   display: flex;
+  justify-content: center;
+  overflow: auto;
 }
 
 
 .mat-content {
+  display: block;
   margin: 0 auto;
   position: relative;
   padding-bottom: 20rem;
   /*right: 0;*/
-  display: block;
   /*border: 1px solid red;*/
-
 }
 
 .content {
+  display: block;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  display: block;
 }
 
 .main-div{
+  align-items: center;
+  border: 1px solid red;
   /*height: 100%;*/
   display: flex;
   justify-content: center;
-  align-items: center;
-  border: 1px solid red;
   /*top: 0;*/
 }
 
@@ -147,14 +143,37 @@ h2 {
 /*}*/
 .column {
   float: left;
-  width: 32%;
   padding: 5px;
+  width: 32%;
   /*display: inline-block;*/
   /*text-align: center;*/
 }
 
-/*.container2 {*/
-/*  text-align: center;*/
-/*}*/
+.button {
+  background-color: #ffffff;
+  border-color: #000000;
+  border-radius: 4px;
+  border-width: 2px;
+  color: #363636;
+  cursor: pointer;
+  justify-content: center;
+  /*padding: calc(.5em - 1px) 1em;*/
+  padding: 8px 15px;
 
+  text-align: center;
+  transition-duration: 0.4s;
+  white-space: nowrap;
+}
+
+.button.is-Outlined:hover {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
+.button.font-Style {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 
