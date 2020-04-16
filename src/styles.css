@@ -11,6 +11,12 @@ body {
   /*position: relative;*/
 }
 
+.button.is-Outlined:hover {
+  background-color: black;
+  border-color: black;
+  color: white;
+}
+
 .scroll-wrapper {
   overflow: auto;
   max-height: 100vh;

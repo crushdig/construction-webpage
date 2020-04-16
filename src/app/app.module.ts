@@ -23,7 +23,7 @@ import {ScrollDispatcher, ScrollingModule} from '@angular/cdk/scrolling';
     FullpageDirective,
     FullpageDirective,
     HeaderComponent,
-    FooterComponent
+    FooterComponent,
   ],
 
   imports: [
