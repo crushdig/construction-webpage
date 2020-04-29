@@ -15,6 +15,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import {ScrollDispatcher, ScrollingModule} from '@angular/cdk/scrolling';
+import { HouseExtensionsComponent } from './house-extensions/house-extensions.component';
+import { NewBuildsComponent } from './new-builds/new-builds.component';
+import { RenovationsComponent } from './renovations/renovations.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +27,9 @@ import {ScrollDispatcher, ScrollingModule} from '@angular/cdk/scrolling';
     FullpageDirective,
     HeaderComponent,
     FooterComponent,
+    HouseExtensionsComponent,
+    NewBuildsComponent,
+    RenovationsComponent,
   ],
 
   imports: [

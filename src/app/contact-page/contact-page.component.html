@@ -10,31 +10,42 @@
 <section>
   <div class="contact-Body">
     <div class="contact-Container">
-      <form (ngSubmit)="submitForm()">
+      <form (ngSubmit)="submitForm()" #contactForm="ngForm">
         <!-- name -->
         <div class="field">
           <label class="label">Name</label>
           <div class="control">
-            <input class="input" type="text" name="name" placeholder="Text Input" [(ngModel)]="name">
+            <input class="input" type="text" name="name" placeholder="Text Input"
+                   [(ngModel)]="name" #nameInput="ngModel" required minlength="3">
           </div>
+        </div>
+
+        <div class="" *ngIf="nameInput.invalid && nameInput.touched">
+          Your name is required.
         </div>
 
         <!-- email -->
         <div class="field">
           <label class="label">Email</label>
           <label>
-            <input class="input" type="email" name="email" placeholder="Email" [(ngModel)]="email">
+            <input class="input" type="email" name="email" placeholder="Email"
+                   [(ngModel)]="email" #emailInput="ngModel" required email>
           </label>
+        </div>
+
+        <div class="" *ngIf="emailInput.invalid && emailInput.touched">
+          Your email is required.
         </div>
 
         <!-- message -->
         <div class="field">
           <label class="label">Message</label>
-          <textarea class="textarea" name="message" [(ngModel)]="message"></textarea>
+          <textarea class="textarea" name="message" placeholder="Please enter your message..."
+                    [(ngModel)]="message"></textarea>
         </div>
 
         <!-- Submit button -->
-        <button type="submit" class="button is-Outlined">Submit</button>
+        <button type="submit" class="button is-Outlined font-Style" [disabled]="contactForm.invalid">Submit</button>
       </form>
     </div>
   </div>
