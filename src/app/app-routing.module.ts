@@ -12,10 +12,10 @@ const routes: Routes = [
   { path: 'home', component: HomePageComponent },
   { path: 'about', component: AboutPageComponent },
   { path: 'contact', component: ContactPageComponent },
-  { path: 'house extensions', component: HouseExtensionsComponent},
-  { path: 'new builds', component: NewBuildsComponent},
-  { path: 'renovations', component: RenovationsComponent},
-  { path: '**', redirectTo: '/home', pathMatch: 'full'},
+  { path: 'house extensions', component: HouseExtensionsComponent },
+  { path: 'new builds', component: NewBuildsComponent },
+  { path: 'renovations', component: RenovationsComponent },
+  { path: '**', redirectTo: '/home', pathMatch: 'full' },
 ];
 
 @NgModule({
@@ -23,4 +23,5 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
-export const routingComponents = [HomePageComponent, AboutPageComponent, ContactPageComponent];
+export const routingComponents = [HomePageComponent, AboutPageComponent, ContactPageComponent,
+  HouseExtensionsComponent, NewBuildsComponent, RenovationsComponent];
