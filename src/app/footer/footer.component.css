@@ -1,11 +1,63 @@
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid red;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
 .footer {
   background-color: #e5e5e5;
   padding: 3rem 1.5rem 6rem;
+  border: 1px solid red;
+  position: relative;
+
   /*bottom: auto;*/
   /*position: absolute;*/
   /*width: 100%;*/
 }
 
-.has-text-centered {
+.container{
+  /*width: 100%;*/
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.column {
+  position: relative;
+  /*width: 100%;*/
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.padding-bottom {
+  padding-bottom: 1rem;
+}
+
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-auto {
+  margin-right: auto;
+}
+
+.margin-top {
+  margin-top: 1rem;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.text-center {
   text-align: center;
 }
